@@ -1,0 +1,11 @@
+[
+	{ "name" : "Brandon West", "emails" : ["brandon.west@sendgrid.com", "bwest@sendgrid.com"] },
+	{ "name" : "Heitor Sergent", "emails" : ["heitor.sergent@sendgrid.com", "heitor@sendgrid.com"] },
+	{ "name" : "Kunal Batra", "emails" : ["kunal.batra@sendgrid.com", "kunal@sendgrid.com"] },
+	{ "name" : "Martyn Davies", "emails" : ["martyn.davies@sendgrid.com", "blah@sendgrid.com"] },
+	{ "name" : "Nick Quinlan", "emails" : ["nicholas.quinlan@sendgrid.com", "nick@sendgrid.com"] },
+	{ "name" : "Robin Johnson", "emails" : ["robin.johnson@sendgrid.com", "rbin@sendgrid.com"] },
+	{ "name" : "Tim Falls", "emails" : ["tim.falls@sendgrid.com", "tf@sendgrid.com"] },
+	{ "name" : "Scott Motte", "emails" : ["scott.mott@sendgrid.com", "mot@sendgrid.com"] },
+	{ "name" : "Yamil Asusta", "emails" : ["yamil.asusta@sendgrid.com", "yamil@sendgrid.com"] }
+]

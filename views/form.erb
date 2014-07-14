@@ -1,0 +1,281 @@
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="text-muted">This form allows us to better track the events we attend and evaluate our participation in the events in the future.</p>
+				</div>
+			</div>
+			<div class="row">
+				<form action="" method="POST" role="form">
+					<div class="form-group">
+						<label for="input-name">Name</label>
+						<input type="text" class="form-control" id="input-name" name="name" required placeholder="Sigurd Olson">
+					</div>
+					<div class="form-group">
+						<label for="input-event">Event Name</label>
+						<input type="text" class="form-control" id="input-event" name="event" required placeholder="Loon Hack">
+					</div>
+					<div class="form-group">
+						<label for="input-date">Event Start Date</label>
+						<input type="date" class="form-control" id="input-date" name="date" required placeholder="03/14/2014">
+					</div>
+					<div class="form-group">
+						<label for="input-location">Event Location</label>
+						<input type="text" class="form-control" id="input-location" name="location" required placeholder="Duluth, MN, United States">
+					</div>
+					<div class="form-group">
+						<label>Event Type</label>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Hackathon"> Hackathon
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Accelerator Visit"> Accelerator Visit
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Conference"> Conference
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Meetup/Community Event"> Meetup/Community Event
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Startup Weekend"> Startup Weekend
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Pitch Competition / Demo Day"> Pitch Competition / Demo Day
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="" class="other"> Other
+								<input type="text" class="form-control" placeholder="Bird Call Competition">
+							</div>
+						</label>
+					</div>
+					<div class="form-group">
+						<label for="input-uses">If developers were building things at this event, how many uses of SendGrid APIs were there?</label>
+						<input type="number" class="form-control" id="input-uses" name="uses" placeholder="20">
+					</div>
+					<div class="form-group">
+						<label for="input-developers">Approximately how many people were at the event?</label>
+						<p class="help-block">Provide a single number. Instead of a range, provide an average.</p>
+						<input type="number" class="form-control" id="input-developers" name="developers" placeholder="400">
+					</div>
+					<div class="form-group">
+						<label>Event Participation</label>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Demo SendGrid API"> Demo SendGrid API
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Serve as a mentor"> Serve as a mentor
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Deliver a technical workshop"> Deliver a technical workshop
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Deliver a presentation/talk"> Deliver a presentation/talk
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Exhibit? (ie, have a table/booth)"> Exhibit? (ie, have a table/booth)
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Sponsor"> Sponsor
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="Help organize"> Help organize
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" name="type" value="" class="other"> Other
+								<input type="text" class="form-control" placeholder="Made Bird Calls">
+							</div>
+						</label>
+					</div>
+					<div class="form-group">
+						<label for="input-audience">How would you describe the audience/attendees/participants?</label>
+						<select class="form-control" id="input-audience" name="audience">
+						  <option default value="Mostly Technical (devs, designers, etc)">Mostly Technical (devs, designers, etc)</option>
+						  <option value="Mostly non-technical (marketers, entrepreneurs, etc)">Mostly non-technical (marketers, entrepreneurs, etc)</option>
+						  <option value="Evenly split between technical and non-technical">Evenly split between technical and non-technical</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label>Was this event education-focused?</label>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="student" value="Yes">
+						    Yes
+						  </label>
+						</div>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="student" value="No">
+								No
+						  </label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Would you suggest that we be involved in this event or other events from these organizers in the future?</label>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="future" value="Yes">
+						    Yes
+						  </label>
+						</div>
+						<div class="radio">
+						  <label>
+						    <input type="radio" name="future" value="No">
+								No
+						  </label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="input-comments">Other comments?</label>
+						<textarea class="form-control" rows="3" id="input-comments" name="comments"></textarea>
+					</div>
+					 <button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/typeahead.bundle.min.js"></script>
+		<script src="js/md5.js"></script>
+		<script src="js/jquery.deserialize.min.js"></script>
+		
+		<script>
+			var namesEngine = new Bloodhound({
+				name: 'names',
+				prefetch: 'data/names.json',
+				datumTokenizer: function(d) {
+					var tokens = [d.name].concat(d.emails);
+					var tokenized = [];
+					for (var i = 0; i < tokens.length; i++) {
+						var tokenized = tokenized.concat( tokens[i].split(/\s/) );
+					};
+					return tokenized;
+				},
+				queryTokenizer: Bloodhound.tokenizers.whitespace,
+				limit: 3
+			});
+
+			namesEngine.initialize();
+			$(function () {
+				$('#input-name').typeahead({
+					minLength: 1,
+					highlight: true,
+				},
+				{
+					name: 'names',
+					displayKey: 'name',
+					source: namesEngine.ttAdapter(),
+					templates: {
+							suggestion: function (d) {
+								var emailMD5 = md5( d.emails[0].toLowerCase() );
+								return  '<p class="clearfix">' +
+												'<img src="//www.gravatar.com/avatar/' + emailMD5 + '?s=50" alt="" class="gravatar">' +
+												'<span class="name">' + d.name + '</span>' +
+												'<span class="email text-muted">' + d.emails[0] + '</span>' +
+												'</p>';
+							}
+					}
+				}).on("typeahead:selected typeahead:autocompleted", function (e) {
+					console.log("typed");
+					var $formGroup = $(this).closest(".form-group");
+					$formGroup.find(".form-control-feedback").remove();
+					$formGroup.removeClass("has-success has-error has-warning").addClass("has-feedback has-success").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+				}).on("change", function () {
+					var $formGroup = $(this).closest(".form-group");
+					$formGroup.find(".form-control-feedback").remove();
+					$formGroup.removeClass("has-success has-error has-warning");
+				});;
+			});
+		</script>
+
+		<script>
+			var locationEngine = new Bloodhound({
+				name: 'location',
+				remote: { 
+					url: 'http://gd.geobytes.com/AutoCompleteCity?&q=%QUERY&callback=?',
+					ajax: {
+						type: "jsonp"
+					}
+				},
+				datumTokenizer:  Bloodhound.tokenizers.whitespace,
+				queryTokenizer: Bloodhound.tokenizers.whitespace,
+				limit: 10
+			});
+
+			locationEngine.initialize();
+
+			$(function () {
+				$('#input-location').typeahead({
+					minLength: 3,
+					highlight: true,
+				},
+				{
+					name: 'location',
+					displayKey: function (d) { return d; },
+					source: locationEngine.ttAdapter(),
+				}).on("typeahead:selected typeahead:autocompleted", function (e) {
+					console.log("typed");
+					var $formGroup = $(this).closest(".form-group");
+					$formGroup.find(".form-control-feedback").remove();
+					$formGroup.removeClass("has-success has-error has-warning").addClass("has-feedback has-success").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+				}).on("change", function () {
+					var $formGroup = $(this).closest(".form-group");
+					$formGroup.find(".form-control-feedback").remove();
+					$formGroup.removeClass("has-success has-error has-warning").addClass("has-feedback has-warning").append('<span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>');
+				});
+			});
+		</script>
+
+		<script>
+			$(function () {
+				$(".checkbox .other").each(function () {
+					var $checkbox = $(this);
+					var $other = $checkbox.parent().find("input[type!=checkbox]");
+					$other.on("keydown", function (e) {
+						var value = $(this).val().replace(/\s/,"");
+						if(e.keyCode != 9 && value!= ""){
+							$checkbox.prop('checked', true).val( $(this).val() );
+						}
+						if(e.keyCode == 9 && value == ""){
+							$checkbox.prop('checked', false);
+						}
+					});
+				});
+			});
+		</script>
+
+		<script>
+			jQuery(function( $ ) {
+			    $( 'form' ).deserialize( location.search.substr( 1 ) );
+			});
+		</script>
